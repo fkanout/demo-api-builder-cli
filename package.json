@@ -1,0 +1,21 @@
+{
+  "name": "demo-api-builder-cli",
+  "version": "1.0.6",
+  "description": "A demo for what an API builder CLI could provide",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "keywords": [],
+  "bin": {
+    "demo-api-builder-cli": "./bin/index.js"
+  },
+  "author": "Faisal KANOUT",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^6.3.1",
+    "ora": "^3.4.0"
+  }
+}
